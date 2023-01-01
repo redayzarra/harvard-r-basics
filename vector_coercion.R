@@ -15,3 +15,11 @@ z # Stores a copy of the numeric vector y with character strings from 1 to 5
 
 a <- as.numeric(z) # Can turn characters back into numbers
 a # Stores a copy of vector z but all the number character strings are actually numbers again
+
+
+# Missing data is represented by the NA value, this value is produced when R fails to coerce something
+
+a <- c("1", "b", "3") # Contains character strings of numbers and letters
+
+b <- as.numeric(a) # Converts them back into numbers but fails to do so for the letter b because it's not a number
+b # An NA value is produced
