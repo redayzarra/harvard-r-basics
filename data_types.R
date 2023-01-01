@@ -13,6 +13,15 @@ class(ls) # The result confirms that ls is a function
 
 # Data frames are useful for data sets because we can combine different types into one single object
 
-library(dslabs)
-data(murders)
-class(murders)
+library(dslabs) # Importing the dslabs library
+data(murders) # Loading the murders dataset
+class(murders) # Then tell us the class of the murders data frame
+
+# The function str, stands for structure, it shows us the structure of the object
+
+str(murders) # Gives us the structural info on the object, like that its a data frame with 51 observations and 5 variables
+
+head(murders) # Gives us the first six lines of the data frame using the head function
+
+# To access different variables or columns, we must use the dollar sign symbol -> $
+
