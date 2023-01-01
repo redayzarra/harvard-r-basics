@@ -17,14 +17,26 @@ library(dslabs) # Importing the dslabs library
 data(murders) # Loading the murders dataset
 class(murders) # Then tell us the class of the murders data frame
 
+
 # The function str, stands for structure, it shows us the structure of the object
 
 str(murders) # Gives us the structural info on the object, like that its a data frame with 51 observations and 5 variables
 
 head(murders) # Gives us the first six lines of the data frame using the head function
 
+
 # To access different variables or columns, we must use the dollar sign symbol, or the accessor -> $
+# The order of the entries from the accessor ($) preserves the orders of the rows from our data table
+# The object produced from the accessor, is a vector or an array
 
 murders$population # Gives us the column associated with the population label, given to us by str
 
 names(murders) # Gives us the names of the five columns or variables, we can use accessor($) to access those columns
+
+
+pop <- murders$population # Assigns the variable pop to the column labeled population
+
+length(pop) # Gives us the length of the variable pop which is 51
+
+class(pop) # Tells us the class of pop which is a numeric because it stores numbers
+
