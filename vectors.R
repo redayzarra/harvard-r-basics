@@ -33,3 +33,17 @@ seq(1, 10) # Writes the numbers 1 through 10
 seq(1, 10, 2) # Generates the numbers 1 through 10 but in increments of 2, so 1 + 2 so 3. Basically, all odd numbers from 1 to 10
 
 1:10 # Shorthand for generating consecutive integers, basically a range from 1 to 10
+
+
+# Subsetting lets us access specific parts of vectors
+# Indices in R start from 1
+
+codes[2] # Allows us to see the index of specific vectors
+
+codes[c(1,3)] # A multi-entry vector allows us to access multiple indices at once, we're creating vector storing 1 and 3 and accessing with that
+
+codes[1:2] # Sequences can be used to access specific parts of vectors, in this case indices 1 to 2 in vector codes
+
+codes["canada"] # Access entries with the names if you know the names of the entry
+
+codes[c("egypt", "italy")] # We can also pass in a vector of names to get the specific entries with those names
