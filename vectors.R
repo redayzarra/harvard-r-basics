@@ -23,3 +23,13 @@ class(codes3)
 codes <- c(380, 124, 818)
 country <- c("italy", "canada", "egypt")
 names(codes) <- country # Assigns the entries of codes, so 380, 124, 818, to the countries stored in the object country
+codes
+
+
+# The seq function, which stands for sequence, generates sequences based on what we asked it to do
+
+seq(1, 10) # Writes the numbers 1 through 10
+
+seq(1, 10, 2) # Generates the numbers 1 through 10 but in increments of 2, so 1 + 2 so 3. Basically, all odd numbers from 1 to 10
+
+1:10 # Shorthand for generating consecutive integers, basically a range from 1 to 10
