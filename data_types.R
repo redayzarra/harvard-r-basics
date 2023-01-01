@@ -23,5 +23,8 @@ str(murders) # Gives us the structural info on the object, like that its a data 
 
 head(murders) # Gives us the first six lines of the data frame using the head function
 
-# To access different variables or columns, we must use the dollar sign symbol -> $
+# To access different variables or columns, we must use the dollar sign symbol, or the accessor -> $
 
+murders$population # Gives us the column associated with the population label, given to us by str
+
+names(murders) # Gives us the names of the five columns or variables, we can use accessor($) to access those columns
