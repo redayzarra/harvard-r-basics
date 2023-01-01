@@ -51,5 +51,11 @@ b # Now it returns the character "b" not the variable
 class(murders$state) # Returns character because the state column has all character strings for values
 
 
-# Logical vectors
+# Logical vectors must either true or false
+
+x <- 3 == 2 # We are asking "is 3 equal to 2?" with the relational operator(==) (which is FALSE) and assigning that value to x
+x
+
+class(x) # Tells us that the class of x is a logical, which is correct because x is FALSE
+
 
