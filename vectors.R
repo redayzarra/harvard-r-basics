@@ -13,6 +13,13 @@ codes2 <- c(italy=380, canada=124, egypt=818) # Codes2 stores numeric objects th
 codes2
 class(codes2) # The class of codes2 is numeric because the objects inside store numeric values
 
-codes3 <- c("italy"=380, "canada"=124, "egypt"=818) # 
+codes3 <- c("italy"=380, "canada"=124, "egypt"=818) # Produces the same result as the code above
 codes3
 class(codes3)
+
+
+# The names function can be used to assign names to the entries of vectors
+
+codes <- c(380, 124, 818)
+country <- c("italy", "canada", "egypt")
+names(codes) <- country # Assigns the entries of codes, so 380, 124, 818, to the countries stored in the object country
