@@ -59,3 +59,11 @@ x
 class(x) # Tells us that the class of x is a logical, which is correct because x is FALSE
 
 
+# Factors are for storing categorical data which is when data is divided into certain categories, each state has its own region
+# Saving categorical data in factors is more memory efficient
+
+class(murders$region) # Tells us that the column region contains factors, there are four factors
+
+levels(murders$region) # The levels function allows us to see the different categories
+
+
