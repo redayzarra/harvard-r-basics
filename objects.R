@@ -7,6 +7,8 @@ print(a) # Allows us to print the variable
 
 ls() # Shows us all the variables saved in the work space (environment)
 
+
 (-b + sqrt(b^2 - 4*a*c)) / (2*a)
+
 
 (-b - sqrt(b^2 - 4*a*c)) / (2*a)
