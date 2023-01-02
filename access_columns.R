@@ -9,3 +9,6 @@ us_murder_rate <- murders %>%
   pull(rate)
 
 us_murder_rate # The object is no longer a dataset, it is now a numeric value that we can work with in other functions
+
+
+class(us_murder_rate)
